@@ -8,14 +8,13 @@ public class sampleJava
     public static void main(String[] args) 
     {
         // Prints "Hello, World" to the terminal window.
-      
+        System.out.println("Hello, World");
         
         //solves the evenly divisible list problem
         List<Integer> list1 = Arrays.asList(1, 2, 15, 24, 30, 5, 30, 60, 2, 8, 30, 76, 41, 52, 11, 12);
         List<Integer> list2 = Arrays.asList(1, 2, 15, 24, 16, 5, 104, 5, 2, 8, 89, 6, 41, 52, 10, 12);
         List<Integer> evenlyDivisibleList = EvenlyDivisible(list1, list2);
         System.out.println(Arrays.toString(evenlyDivisibleList.toArray()));
-        System.out.println("Hello, World");
     }
     
     //returns the evenly divisible list
@@ -44,5 +43,4 @@ public class sampleJava
     	
     	return evenlyDivisibleList;
     }
-
 }
